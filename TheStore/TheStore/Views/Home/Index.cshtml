@@ -1,0 +1,11 @@
+﻿@{
+    //  Dynamically setting the page title
+    ViewData["Title"] = "Home Page";
+}
+
+<h1>Home Page</h1>
+
+<div class="list-group">
+    <a asp-controller="Product" asp-action="List">View All Products</a>
+    <a asp-controller="Home" asp-action="About">About Us</a>
+</div>
